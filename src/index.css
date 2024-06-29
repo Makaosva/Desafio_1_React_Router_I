@@ -3,3 +3,18 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: rgb(255, 255, 255);
 }
+
+.formulario{
+  padding: 0px 16px;
+  
+  
+}
+
+.formulario .form-control{
+  margin: 10px;
+  font-size: 15px;
+}
+
+.formulario .btn {
+  margin: 10px;
+}

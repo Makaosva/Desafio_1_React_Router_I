@@ -6,30 +6,31 @@ function ContactPage() {
   const [descripcion, setDescripcion] = useState("");
 
   return (
-    <Container className="mt-5 text-danger">
+    <Container className="mt-5 text-center">
       <Row className="justify-content-center">
-        <Col md={6}>
+        <Col md={12} className="formulario">
           <h3>Cuentanos, ¿en que te podemos ayudar?</h3>
           <Form>
             <Form.Group controlId="formBasicCorreo">
-              <Form.Label>Correo</Form.Label>
+              <Form.Label>Correo:</Form.Label>
               <Form.Control
                 type="email"
                 value={correo}
                 onChange={(e) => setCorreo(e.target.value)}
-                placeholder="Correo"
+                placeholder="name@example.com"
               />
             </Form.Group>
-            <Form.Group controlId="formBasicDescripcion">
-              <Form.Label>Descripcion</Form.Label>
+            <Form.Group controlId="formBasicDescripcion" >
+              <Form.Label>Descripcion:</Form.Label>
               <Form.Control
                 type="text"
                 value={descripcion}
                 onChange={(e) => setDescripcion(e.target.value)}
                 placeholder="Descripcion"
+                as="textarea" rows={3}
               />
             </Form.Group>
-            <Button variant="danger" type="submit" className="w-100">
+            <Button variant="danger" size="sm" type="submit" className="w-25">
               Enviar
             </Button>
           </Form>

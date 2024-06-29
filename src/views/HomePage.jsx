@@ -1,4 +1,4 @@
-import { Container, Figure, FigureImage } from "react-bootstrap";
+import { Container, Figure } from "react-bootstrap";
 
 function HomePage() {
   return (
@@ -11,7 +11,7 @@ function HomePage() {
         <Figure.Image
           width={200}
           height={200}
-          alt="171x180"
+          alt="Foto pastel"
           src="https://static.vecteezy.com/system/resources/previews/024/639/169/non_2x/cartoon-cake-delights-colorful-pastel-joy-for-parties-free-png.png"
         />
       </Figure>
