@@ -1,7 +1,7 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-function Navigation() {
+function NavBar() {
   return (
     <Navbar bg="danger" variant="dark">
       <Container fluid className="justify-content-start">
@@ -21,4 +21,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default NavBar;

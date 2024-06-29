@@ -1,13 +1,15 @@
-import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import './App.css'
+import NavBar from "./components/NavBar";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  
-
   return (
-    
-  )
+    <BrowserRouter>
+      <NavBar />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
