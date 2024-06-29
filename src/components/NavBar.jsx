@@ -17,7 +17,7 @@ function NavBar() {
           </Nav>
         </Navbar.Collapse>
         <Navbar.Brand className="justify-content-end">
-           Happy Cake 🍰
+          Happy Cake 🍰
         </Navbar.Brand>
       </Container>
     </Navbar>
